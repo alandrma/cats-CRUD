@@ -22,16 +22,11 @@ Optionally, install Steam. If you’re on Debian, enable the non-free repos firs
 ### Penggunaan dasar Phoronix Test Suite
 Rangkaian pengujian Phoronix memiliki banyak pengujian. Untuk melihat semua tes kita akan menjalankan perintah:
 
->`$ phoronix-test-suite
-
-Untuk mendapatkan keseluruhan informasi yang tersedia
-
->`$ phoronix-test-suite list-tests`
+>`$ phoronix-test-suite`
 Untuk mendapatkan list dari test
-
-Mendapatkan informasi tentang test atau suite tertentu:
-
->$ phoronix-test-suite info [test]
+>`$ phoronix-test-suite list-tests`
+Mendapatkan informasi tentang test atau suite tertentu
+>` $ phoronix-test-suite info [test]`
 
 ### Langkah Stress Test
 
@@ -39,10 +34,10 @@ Dalam pengujian kali ini akan melakukan sebuah uji terhadap OpenSSL dan juga SQl
 
 ` phoronix-test-suite install [Test | Suite | OpenBenchmarking ID | Test Result]
 
->` $ phoronix-test-suite install pts/openssl
->` $ phoronix-test-suite install pts/sqlite
+>` $ phoronix-test-suite install pts/openssl`
+>` $ phoronix-test-suite install pts/sqlite`
 
-` phoronix-test-suite run [Test | Suite | OpenBenchmarking ID | Test Result]
+` phoronix-test-suite run [Test | Suite | OpenBenchmarking ID | Test Result]`
 
->` $ phoronix-test-suite run pts/openssl
->` $ phoronix-test-suite run pts/sqlite
+>` $ phoronix-test-suite run pts/openssl`
+>` $ phoronix-test-suite run pts/sqlite`
