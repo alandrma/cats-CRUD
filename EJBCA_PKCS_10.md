@@ -5,7 +5,7 @@
 ### *Requirements*
 A working install of one of the supported distributions with root privileges and the latest graphics drivers installed.
 
-### **Installation Step Phoronix Test Suite**
+### **Langkah Instalasi Phoronix Test Suite**
 Ubuntu/Debian
 Head over to the Phoronix Test Suite [download page](https://www.phoronix-test-suite.com/?k=downloads), and grab the latest .deb package.
 
@@ -36,12 +36,13 @@ Mendapatkan informasi tentang test atau suite tertentu
 
 Dalam pengujian kali ini akan melakukan sebuah uji terhadap OpenSSL dan juga SQlite. Pertama lakukan langkah instalasi terhadap test suite-nya. Dengan menambahkan perintah 
 
-` phoronix-test-suite install [Test | Suite | OpenBenchmarking ID | Test Result]
+>horonix-test-suite install [Test | Suite | OpenBenchmarking ID | Test Result]
 
 >` $ phoronix-test-suite install pts/openssl`
+
 >` $ phoronix-test-suite install pts/sqlite`
 
-` phoronix-test-suite run [Test | Suite | OpenBenchmarking ID | Test Result]`
+>phoronix-test-suite run [Test | Suite | OpenBenchmarking ID | Test Result]
 
 >` $ phoronix-test-suite run pts/openssl`
 >` $ phoronix-test-suite run pts/sqlite`
