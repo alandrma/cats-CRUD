@@ -32,17 +32,26 @@ Untuk mendapatkan list dari test
 Mendapatkan informasi tentang test atau suite tertentu
 >` $ phoronix-test-suite info [test]`
 
+View the included documentation or visit https://www.phoronix-test-suite.com/ for full details.
+
+
 ### Langkah Stress Test
 
 Dalam pengujian kali ini akan melakukan sebuah uji terhadap OpenSSL dan juga SQlite. Pertama lakukan langkah instalasi terhadap test suite-nya. Dengan menambahkan perintah 
 
 >horonix-test-suite install [Test | Suite | OpenBenchmarking ID | Test Result]
 
+Berikut perintah untuk menginstall paket test dari OpenSSL dan SQlite
+
 >` $ phoronix-test-suite install pts/openssl`
 
 >` $ phoronix-test-suite install pts/sqlite`
 
+Selanjutnya perintah untuk menjalankan test yang sudah diinstall sebelumnya
+
 >phoronix-test-suite run [Test | Suite | OpenBenchmarking ID | Test Result]
 
 >` $ phoronix-test-suite run pts/openssl`
+
 >` $ phoronix-test-suite run pts/sqlite`
+
