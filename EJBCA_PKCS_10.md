@@ -23,8 +23,12 @@ Optionally, install Steam. If you’re on Debian, enable the non-free repos firs
 Rangkaian pengujian Phoronix memiliki banyak pengujian. Untuk melihat semua tes kita akan menjalankan perintah:
 
 >`$ phoronix-test-suite`
+
+
 Untuk mendapatkan list dari test
 >`$ phoronix-test-suite list-tests`
+
+
 Mendapatkan informasi tentang test atau suite tertentu
 >` $ phoronix-test-suite info [test]`
 
