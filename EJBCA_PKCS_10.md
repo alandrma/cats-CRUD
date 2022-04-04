@@ -59,4 +59,62 @@ Setelah-nya hasil dari benchmark yang dijalankan sebelumnya dapat diakses melalu
 
 Berikut hasil dari benchmark OpenSSl dan Sqlite
 
-OpenSSL : <a href="https://ibb.co/0qhBHQt"><img src="https://i.ibb.co/mJ6vfS8/Screenshot-from-2022-04-04-11-05-08.png" alt="Screenshot-from-2022-04-04-11-05-08" border="0"></a>
+OpenSSL :
+
+<a href="https://ibb.co/WcQnvjS"><img src="https://i.ibb.co/JzNnjgX/Screenshot-from-2022-04-04-12-10-28.png" alt="Screenshot-from-2022-04-04-12-10-28" border="0"></a>
+<a href="https://ibb.co/hBgVNdP"><img src="https://i.ibb.co/jy8DYwc/Screenshot-from-2022-04-04-12-10-41.png" alt="Screenshot-from-2022-04-04-12-10-41" border="0"></a>
+<a href="https://ibb.co/h7KTTLn"><img src="https://i.ibb.co/ZLhbbGw/Screenshot-from-2022-04-04-12-10-56.png" alt="Screenshot-from-2022-04-04-12-10-56" border="0"></a>
+
+SQlite:
+
+<a href="https://ibb.co/dg5PkL9"><img src="https://i.ibb.co/2Nkvcs2/Screenshot-from-2022-04-04-11-21-35.png" alt="Screenshot-from-2022-04-04-11-21-35" border="0"></a>
+<a href="https://ibb.co/TcQC7n0"><img src="https://i.ibb.co/0q0w6W9/Screenshot-from-2022-04-04-11-21-48.png" alt="Screenshot-from-2022-04-04-11-21-48" border="0"></a>
+<a href="https://ibb.co/LPmQfBv"><img src="https://i.ibb.co/dcFbyX7/Screenshot-from-2022-04-04-11-21-59.png" alt="Screenshot-from-2022-04-04-11-21-59" border="0"></a>
+<a href="https://ibb.co/GvW7xpy"><img src="https://i.ibb.co/mC9JDTk/Screenshot-from-2022-04-04-11-22-10.png" alt="Screenshot-from-2022-04-04-11-22-10" border="0"></a>
+<a href="https://ibb.co/dB2FXR7"><img src="https://i.ibb.co/H7z6RjX/Screenshot-from-2022-04-04-11-22-22.png" alt="Screenshot-from-2022-04-04-11-22-22" border="0"></a>
+
+
+
+
+Jalankan start results viewer atau show results berdasarkan nama 
+>phoronix-test-suite start-result-viewer
+
+atau bisa juga dengan menjalankan
+
+>phoronix-test-suite show-result [nama test yang telah disimpan sebelumnya]
+
+>` $ phoronix-test-suite show-result openssl-test`
+
+<a href="https://ibb.co/BBMPc3g"><img src="https://i.ibb.co/gJK7m9D/Screenshot-from-2022-04-04-11-29-49.png" alt="Screenshot-from-2022-04-04-11-29-49" border="0"></a>
+
+Untuk menganalisa hasil test dapat dibuka dengan menjalankan perintah berikut 
+
+>phoronix-test-suite [Nama Result Analysis] [Nama test result]
+
+RESULT ANALYSIS
+
+    analyze-run-times      [Test Result] 
+    executive-summary      [Test Result] 
+    result-file-confidence [Test Result] 
+    result-file-stats      [Test Result] 
+    wins-and-losses        [Test Result] 
+    workload-topology      [Test Result]
+    
+Selain itu, hasil benchmark dapat di eksport melalui web ataupun command.
+
+>phoronix-test-suite [Nama Result Eksport] [Nama test result]
+
+RESULT EXPORT
+
+    result-file-raw-to-csv [Test Result] 
+    result-file-to-csv     [Test Result] 
+    result-file-to-html    [Test Result] 
+    result-file-to-json    [Test Result] 
+    result-file-to-pdf     [Test Result] 
+    result-file-to-suite   [Test Result] 
+    result-file-to-text    [Test Result] 
+
+
+Refrensi :
+- https://linuxconfig.org/benchmark-your-graphics-card-on-linux
+- https://github.com/phoronix-test-suite/phoronix-test-suite/blob/master/documentation/phoronix-test-suite.md
