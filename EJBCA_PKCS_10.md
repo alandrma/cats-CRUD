@@ -59,6 +59,4 @@ Setelah-nya hasil dari benchmark yang dijalankan sebelumnya dapat diakses melalu
 
 Berikut hasil dari benchmark OpenSSl dan Sqlite
 
-OpenSSL : ![Upload File](https://ibb.co/Fx5jRQL "Benchmark OpenSSL")
-![Upload File](https://ibb.co/Fx5jRQL)
-![Upload File](https://ibb.co/GxpJYYR)
+OpenSSL : <a href="https://ibb.co/0qhBHQt"><img src="https://i.ibb.co/mJ6vfS8/Screenshot-from-2022-04-04-11-05-08.png" alt="Screenshot-from-2022-04-04-11-05-08" border="0"></a>
