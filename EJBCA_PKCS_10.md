@@ -39,7 +39,7 @@ View the included documentation or visit https://www.phoronix-test-suite.com/ fo
 
 Dalam pengujian kali ini akan melakukan sebuah uji terhadap OpenSSL dan juga SQlite. Pertama lakukan langkah instalasi terhadap test suite-nya. Dengan menambahkan perintah 
 
->horonix-test-suite install [Test | Suite | OpenBenchmarking ID | Test Result]
+>phoronix-test-suite install [Test | Suite | OpenBenchmarking ID | Test Result]
 
 Berikut perintah untuk menginstall paket test dari OpenSSL dan SQlite
 
@@ -55,3 +55,10 @@ Selanjutnya perintah untuk menjalankan test yang sudah diinstall sebelumnya
 
 >` $ phoronix-test-suite run pts/sqlite`
 
+Setelah-nya hasil dari benchmark yang dijalankan sebelumnya dapat diakses melalui website yang nantinya dapat di export 
+
+Berikut hasil dari benchmark OpenSSl dan Sqlite
+
+OpenSSL : ![Upload File](https://ibb.co/Fx5jRQL "Benchmark OpenSSL")
+![Upload File](https://ibb.co/Fx5jRQL)
+![Upload File](https://ibb.co/GxpJYYR)
